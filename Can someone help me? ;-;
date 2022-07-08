@@ -1,0 +1,29 @@
+Can someone help to repair my code? Im wanting to make a code that generates 2 random numbers that the system adds up and asks what the result is.
+Here is the code (some parts is on portuguese):
+
+            string resultado;
+            string mensagem;
+
+            Random num1 = new Random(0, 10); 
+            int val1 = num1.Next();
+
+            Random num2 = new Random(0, 10);
+            int val2 = num2.Next();
+
+            resultado = num1 + num2;
+
+            Console.Write("Quanto é ");
+            Console.Write(val1);
+            Console.Write("+");
+            Console.Write(val2);
+            Console.WriteLine("?");
+
+            if;
+            mensagem = resultado;
+            Console.Write("Correto!");
+
+            else;
+            Console.Write("Errou");
+
+            Console.ReadKey();
+
